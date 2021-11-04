@@ -1,7 +1,8 @@
-package ru.adorly.adcomposition
+package ru.adorly.adcomposition.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ru.adorly.adcomposition.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
