@@ -1,7 +1,10 @@
 package ru.adorly.adcomposition.domain.entity
 
-data class Question (
-    val Summ: Int,
+data class Question(
+    val sum: Int,
     val visibleNumber: Int,
     val options: List<Int>
-        )
+) {
+    val rightAnswer: Int
+        get() = sum - visibleNumber
+}
